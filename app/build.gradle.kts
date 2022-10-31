@@ -3,9 +3,10 @@ plugins {
     id("org.jetbrains.kotlin.android")
 }
 
-android {
-    compileSdk = 0
-}
+//without this, project won't compile
+//android {
+//    compileSdk = 0
+//}
 
 androidComponents {
     finalizeDsl {
